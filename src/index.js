@@ -14,16 +14,7 @@ form.addEventListener("submit", (event) => {
 
 // on construit un tableau de todos avec du texte, un statut, et un mode edition
 const todos = [
-	{
-		text: "je suis une todo",
-		done: false,
-		editMode: false,
-	},
-	{
-		text: "faire du javascript",
-		done: true,
-		editMode: false,
-	},
+
 ];
 
 // On map le tableau soit en mode edition soit en mode creation et on ajoute des noeuds ul en fonction.
